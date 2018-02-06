@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tesla | Home</title>
+    <title>Tesla | Contato</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
@@ -40,10 +40,28 @@
   </div>
 </nav>
 
-    <h1 style="color: #700000; text-align: center; font-family: 'Encode Sans Expanded', sans-serif;">Model S - Tesla</h1>
+<form>
+<div class="form-group">
+<label for="exampleFormControlInput1">Email</label>
+<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="form-group">
+<label for="exampleFormControlSelect1">Categoria</label>
+<select class="form-control" id="exampleFormControlSelect1">
+ <option>Venda</option>
+ <option>Sugestões</option>
+ <option>Dúvidas</option>
+ <option>Reclamações</option>
+</select>
+</div>
 
-    <img src="https://www.cheatsheet.com/wp-content/uploads/2016/08/p100d-teaser-desktop.jpg?x40965" style="width: 100%" alt="Model S">
-<br>
+<div class="form-group">
+<label for="exampleFormControlTextarea1">Digite sua mensagem</label>
+<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</form>
+
+<button type="button" class="btn btn-secondary btn-lg" disabled>Enviar</button>
 
   </body>
 </html>
